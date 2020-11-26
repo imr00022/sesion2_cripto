@@ -11,7 +11,7 @@ $alg = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT; //variables de la librería para la sec
 $opsLimit = SODIUM_CRYPTO_PWHASH_OPSLIMIT_MODERATE; //variables de la librería para la secretKey
 $memLimit = SODIUM_CRYPTO_PWHASH_MEMLIMIT_MODERATE; //variables de la librería para la secretKey
 $salt = random_bytes(SODIUM_CRYPTO_PWHASH_SALTBYTES); //variables de la librería para la secretKey
-//Funcion que genera la Key 
+//Realiza una operación intensiva de cálculo de una contraseña para obtener una clave secreta
 $secretKey = sodium_crypto_pwhash(
 	SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_KEYBYTES,
 	$password,
