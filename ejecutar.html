@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<style type="text/css">
+.menu { 
+border: 1px solid #696;
+padding: 60px 0;
+text-align: center; width: 400px;
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+background: #99FFF7;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#99FFF7), to(#14F575));
+background: -webkit-linear-gradient(#99FFF7, #14F575);
+background: -moz-linear-gradient(#99FFF7, #14F575);
+background: -ms-linear-gradient(#99FFF7, #14F575);
+background: -o-linear-gradient(#99FFF7, #14F575);
+background: linear-gradient(#99FFF7, #14F575);
+-pie-background: linear-gradient(#99FFF7, #14F575);
+behavior: url(/pie/PIE.htc);
+};
+</style>
+</head>
+
+<body>
+<div class="menu">
+<h1>PROGRAMA PARA ENCRIPTAR ARCHIVOS MEDIANTE CONTRASEÑA</h1>
+<form form action="programa_libsodium.php" method="post">
+  <label for="pass_encri">Introduzca la contraseña para cifrar deseada: </label>
+  <input type="password" name="pass_encri" id="pass_encri"><br>
+  Seleccione archivo para encriptar:
+  <input type="file" name="subir_archivo" id="subir_archivo" >
+  <input type="submit" value="Encriptar Archivo" name="submit"><br>
+</form>
+</div>
+</body>
+</html>
+
