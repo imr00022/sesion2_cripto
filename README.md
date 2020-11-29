@@ -18,4 +18,5 @@ Los archivos encriptados se guardan en el directorio /var/www/html
 Referencias:
 
 https://libsodium.gitbook.io/doc/
+
 https://github.com/jedisct1/libsodium-php
