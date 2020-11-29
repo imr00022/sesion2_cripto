@@ -20,3 +20,5 @@ Referencias:
 https://libsodium.gitbook.io/doc/
 
 https://github.com/jedisct1/libsodium-php
+
+https://www.php.net/docs.php
