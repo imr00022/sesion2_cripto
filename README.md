@@ -3,6 +3,7 @@
 Requerimientos:
 
 Ubuntu18.04, servidor apache, php7.2, libreria libsodium
+
 Hay que cambiar la configuración del archivo de php llamado php.ini, que se encuentra en el directorio /etc/php/7.2/apache2/ y cambiar el parámetro upload_max_filesize ( asignarle el tamaño del archivo que se desea encriptar) 
 
 Acceso a la aplicación:
